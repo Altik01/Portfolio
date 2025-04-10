@@ -573,12 +573,17 @@ span{
 
 @media (max-width: 995px){
     .about-me {
-        font-size: auto;
+        padding: 500px 495px;
         flex-direction: column;
     }
     
     .photo-container {
         display: none;
+    }
+
+    about-me p{
+        font-size: auto;
+        text-align: center;
     }
 }
 
