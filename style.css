@@ -573,6 +573,7 @@ span{
 
 @media (max-width: 995px){
     .about-me {
+        font-size: auto;
         flex-direction: column;
     }
     
