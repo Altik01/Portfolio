@@ -581,10 +581,14 @@ span{
         display: none;
     }
 
-    about-me p{
-        font-size: auto;
-        text-align: center;
+       .photo {
+        max-width: 130px;
     }
+
+    .links{
+        display: none;
+    }
+}
 }
 
 
@@ -678,6 +682,11 @@ span{
 
 /* Медиазапросы для мобильных устройств */
 @media (max-width: 600px) {
+    .outer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
     .skills-container {
         padding: 10px;
     }
