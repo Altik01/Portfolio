@@ -609,17 +609,17 @@ span{
     
     .links {
         padding: 10px;
-        margin-top: 15px;
+        margin-top: 3px;
     }
     
     .example-2 .icon-content a {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     
     .example-2 .icon-content a svg {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 15px;
     }
 }
 
