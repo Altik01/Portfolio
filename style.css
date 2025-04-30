@@ -571,24 +571,81 @@ span{
     );
   }
 
-@media (max-width: 995px){
+@media (max-width: 768px) {
     .about-me {
-        padding: 500px 495px;
         flex-direction: column;
+        padding: 20px 10px;
+        max-height: none;
+        margin: 0 10px;
     }
     
     .photo-container {
-        display: none;
+        flex: 0 0 auto;
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: center;
     }
-
-       .photo {
-        max-width: 130px;
+    
+    .photo {
+        max-width: 150px;
+        margin: 0 auto;
     }
-
-    .links{
-        display: none;
+    
+    .text-container {
+        padding: 0;
+    }
+    
+    .about-me h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .about-me p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: justify;
+        padding: 0 5px;
+    }
+    
+    .links {
+        padding: 15px 0 0;
+        margin-top: 15px;
+    }
+    
+    .example-2 .icon-content a {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .example-2 .icon-content a svg {
+        width: 20px;
+        height: 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .about-me {
+        border-radius: 5px;
+        padding: 15px 8px;
+    }
+    
+    .about-me h2 {
+        font-size: 20px;
+    }
+    
+    .about-me p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    
+    .photo {
+        max-width: 120px;
+    }
+    
+    .example-2 .icon-content {
+        margin: 0 5px;
+    }
 }
 
 
